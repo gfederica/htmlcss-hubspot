@@ -31,6 +31,7 @@ ul li {
     border: 1px solid #fe775a;
     border-radius: 5px;
     padding: 0 10px;
+    display: inline-block;
 }
 .white-btn {
     background-color: white;
@@ -53,7 +54,7 @@ ul li {
     padding-left: 6px;
 }
 .navigation .fa-angle-down {
-    padding-left: 14px;
+    padding-left: 10px;
 }
 /* fixed top bar */
 #fixed-top-bar {
@@ -89,8 +90,28 @@ ul li {
     text-align: right;
 }
 
-/* nav-bar */
+/* logo */
 .logo img {
     width: 110px;
 }
 
+/* jumbotron */
+.jumbotron {
+    height: 65vh;    
+    background-color: #fef6ef;
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    background-position: 100%;
+    border-bottom: 3px solid #33475b;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 0;
+}
+
+/* .green-partition {
+    height: 15vh;
+    background-color: #afebe4;
+} */
