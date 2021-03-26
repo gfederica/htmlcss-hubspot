@@ -30,7 +30,7 @@ ul li {
 .btn {
     border: 1px solid #fe775a;
     border-radius: 5px;
-    padding: 0 10px;
+    padding: 5px 10px;
     display: inline-block;
 }
 .white-btn {
@@ -106,12 +106,27 @@ ul li {
     border-bottom: 3px solid #33475b;
 }
 
+
 .half-width {
     width: 50%;
-    margin-left: 0;
+    padding: 70px 0;    
 }
 
-/* .green-partition {
-    height: 15vh;
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -1px;  
+    line-height: 50px;  
+}
+
+.standard-paragraph,
+.small-paragraph {
+    padding: 20px 0;
+}
+
+.green-partition {
+    height: 10vh;
     background-color: #afebe4;
-} */
+    border-bottom: 3px solid #33475b;
+}
