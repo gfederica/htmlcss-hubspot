@@ -52,17 +52,22 @@ ul li {
 .fa-angle-down {
     padding-left: 6px;
 }
+.navigation .fa-angle-down {
+    padding-left: 14px;
+}
 /* fixed top bar */
 #fixed-top-bar {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
 }
 
+/* top bar and nav bar commons */
+
 .left-section,
 .right-section {
     float: left;
     width: 50%;
-    line-height: 35px;
+    line-height: 26px;
     padding: 20px 0;
 }
 
@@ -78,7 +83,6 @@ ul li {
 #vertical-rule::after {
     content: "";
     border-right: 2px solid #32495b;
-    line-height: 20px;
 }
 
 .right-section {
@@ -86,5 +90,7 @@ ul li {
 }
 
 /* nav-bar */
-
+.logo img {
+    width: 110px;
+}
 
