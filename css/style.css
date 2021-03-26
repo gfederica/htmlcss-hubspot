@@ -26,6 +26,21 @@ ul li {
     list-style-type: none;
 }
 
+/* buttons */
+.btn {
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.white-btn {
+    background-color: white;
+    color: #fe775a;
+}
+.orange-btn {
+    background-color: #fe775a;
+    color: white;
+}
+
 /* font awesome content */
 .fa-globe-europe {
     padding-right: 6px;
@@ -34,31 +49,42 @@ ul li {
     color: #03a6be;
     font-size: 14px;
 }
-
+.fa-angle-down {
+    padding-left: 6px;
+}
 /* fixed top bar */
 #fixed-top-bar {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
 }
 
-
 .left-section,
 .right-section {
     float: left;
     width: 50%;
-    line-height: 70px;
+    line-height: 35px;
+    padding: 20px 0;
 }
 
 .left-section ul li,
 .right-section ul li {
     display: inline-block;
-    padding: 0 16px;
+    margin-right: 20px;
 }
 
 .left-section {
     text-align: left;
 }
+#vertical-rule::after {
+    content: "";
+    border-right: 2px solid #32495b;
+    line-height: 20px;
+}
 
 .right-section {
     text-align: right;
 }
+
+/* nav-bar */
+
+
