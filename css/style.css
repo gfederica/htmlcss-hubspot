@@ -26,12 +26,18 @@ ul li {
     list-style-type: none;
 }
 
+.half-width {
+    width: 50%;
+    padding: 70px 0;
+}
+
+
 /* buttons */
 .btn {
     border: 1px solid #fe775a;
     border-radius: 5px;
-    padding: 5px 10px;
-    display: inline-block;
+    padding: 8px 10px;
+    text-decoration: none;
 }
 .white-btn {
     background-color: white;
@@ -61,17 +67,19 @@ ul li {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
 }
+#fixed-top-bar,
+#nav-not-fixed {
+    height: 70px;
+    line-height: 70px;
+}
+
 
 /* top bar and nav bar commons */
-
 .left-section,
 .right-section {
     float: left;
     width: 50%;
-    line-height: 26px;
-    padding: 20px 0;
 }
-
 .left-section ul li,
 .right-section ul li {
     display: inline-block;
@@ -85,14 +93,25 @@ ul li {
     content: "";
     border-right: 2px solid #32495b;
 }
-
 .right-section {
     text-align: right;
 }
 
+.left-section-2 {
+    width: 30%;
+    float: left;
+    display: block;
+}
+.right-section-2 {
+    width: 70%;
+    float: left;
+}
+
+
+
 /* logo */
 .logo img {
-    width: 110px;
+    vertical-align: middle;
 }
 
 /* jumbotron */
@@ -106,13 +125,6 @@ ul li {
     border-bottom: 3px solid #33475b;
 }
 
-
-.half-width {
-    width: 50%;
-    padding: 70px 0;    
-}
-
-
 h1 {
     font-size: 50px;
     font-weight: 800;
@@ -122,11 +134,44 @@ h1 {
 
 .standard-paragraph,
 .small-paragraph {
-    padding: 20px 0;
+    padding: 24px 0;
+    font-size: 14px;
 }
 
+/* empty space bottom jumbotron */
 .green-partition {
     height: 10vh;
     background-color: #afebe4;
     border-bottom: 3px solid #33475b;
+}
+
+/* features section */
+.features {
+    background-color: #f4f9fd;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* better together part */
+.better-together img {
+    height: 180px;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px; 
+}
+
+#small-paragraph {
+    padding: 25px 100px;
+}
+
+/* free hubspot CRM part */
+
+.free-crm img {
+    height: 100px;
+    vertical-align: middle;
+    width: 100%;
 }
