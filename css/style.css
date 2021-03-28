@@ -35,6 +35,16 @@ ul li {
     text-transform: uppercase;
 }
 
+.features img {
+    height: 100px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+.three-col-features,
+.free-crm {
+    margin-top: 30px;
+}
 
 /* buttons */
 .btn {
@@ -50,6 +60,10 @@ ul li {
 .orange-btn {
     background-color: #fe775a;
     color: white;
+}
+.learn-more {
+    height: 40px;
+    line-height: 40px;
 }
 
 /* font awesome content */
@@ -113,10 +127,7 @@ ul li {
     width: 30%;
     float: left;
     display: block;
-    padding-top: 85px;
 }
-
-
 .right-section-2 {
     width: 70%;
     float: left;
@@ -151,6 +162,7 @@ h1 {
 .small-paragraph {
     padding: 24px 0;
     font-size: 14px;
+    line-height: 24px;
 }
 
 /* empty space bottom jumbotron */
@@ -168,9 +180,6 @@ h1 {
 }
 
 /* better together part */
-.features * {
-    margin-bottom: 30px;
-}
 .better-together img {
     height: 180px;
     vertical-align: middle;
@@ -187,20 +196,65 @@ h2 {
 }
 
 /* free hubspot CRM part */
-
-.free-crm img {
-    height: 100px;
-    vertical-align: middle;
-    width: 100%;
-}
-
 h3 {
     font-weight: 800;
     font-size: 24px;
 }
 
-.free-crm .container {
+.free-crm {
     background-color: white;
-    position: relative;
+    padding: 60px 0;
 }
+
+.right-section-2 p {
+    width: 80%;
+}
+
+.free-crm h4 {
+    width: 80%; 
+    text-align: left; 
+    border-bottom: 1px solid #000; 
+    line-height: 1px;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .free-crm h4 span { 
+     background:#fff; 
+     padding-right: 40px; 
+ }
+
+ /* three floated columns, hubs */
+.hub {
+    float: left;
+    background-color: white;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 40px;
+}
+
+.feature-1,
+.feature-3 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.hub h4 {
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+
+.hub .standard-paragraph {
+    margin-bottom: 20px;
+}
+
+.hub ul {
+    margin: 20px 0 30px;
+    text-align: left;
+}
+
+
+
+
 
