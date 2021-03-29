@@ -15,9 +15,16 @@ body {
     width: 70%;
     margin: auto;
 }
+.container-60 {
+    width: 60%;
+    margin: auto;
+}
 
+/* clearfix */
 .container::after,
-.row::after {
+.container-60::after,
+.row::after,
+.partners::after {
     content: "";
     display: table;
     clear: both;
@@ -71,6 +78,10 @@ h2 {
     line-height: 24px;
 }
 
+#bold-text {
+    font-weight: 800;
+}
+
 /* buttons */
 .btn {
     border: 1px solid #fe775a;
@@ -78,13 +89,18 @@ h2 {
     padding: 8px 10px;
     text-decoration: none;
 }
+.btn:not(.small-btn) {
+    padding: 16px 28px;
+}
 .white-btn {
     background-color: white;
     color: #fe775a;
+    font-size: 12px;
 }
 .orange-btn {
     background-color: #fe775a;
     color: white;
+    font-size: 12px;
 }
 .learn-more {
     height: 40px;
@@ -157,6 +173,27 @@ h2 {
     width: 70%;
     float: left;
     text-align: left;
+}
+
+.left-section-3 {
+    width: 20%;
+    float: left;
+    display: block;
+}
+.right-section-3 {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+.left-section-4 {
+    width: 40%;
+    float: left;
+    display: block;
+}
+.right-section-4 {
+    width: 60%;
+    float: left;
+    text-align: right;
 }
 
 
@@ -283,7 +320,7 @@ h3 {
 }
 
 
-.row:first-of-type {
+#border-grid {
     margin-top: 20px;
     border-bottom: 1px solid white;
 }
@@ -309,5 +346,47 @@ h3 {
 
 .numbers:not(.last-of-row) {
     border-right: 1px solid white;
+}
+
+/* customers with partners logos section */
+#customers {
+    background-color: white;
+}
+
+.partners h2 {
+    font-size: 40px;
+}
+
+.partners {
+    padding: 50px 0;
+}
+
+.right-section-3 .row img {
+    width: 18%;
+    padding: 2% 1%;
+    vertical-align: middle;
+}
+
+/* final call to action section */
+#jumbotron-endpage {
+    padding-top: 0;
+}
+
+.right-section-4 img {
+    width: 46%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.left-section-4 {
+    margin-top: 30px;
+}
+
+.left-section-4 .standard-paragraph {
+    padding-bottom: 50px;
+}
+
+.left-section-4 .small-paragraph {
+    padding-top: 50px;
 }
 
