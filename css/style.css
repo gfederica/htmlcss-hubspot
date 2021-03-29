@@ -35,9 +35,12 @@ ul li {
 
 ul li a {
     font-size: 14px;
-    display: block;
     text-decoration: none;
     color: #dadee0;
+}
+
+.summary ul li a {
+    display: block;
     padding: 6px 0;
 }
 
@@ -96,7 +99,7 @@ h2 {
     padding: 8px 10px;
     text-decoration: none;
 }
-.btn:not(.small-btn) {
+.btn:not(.small-btn, .blue-btn){
     padding: 16px 28px;
 }
 .white-btn {
@@ -112,6 +115,21 @@ h2 {
 .learn-more {
     height: 40px;
     line-height: 40px;
+}
+#blue-btn {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #dadee0;
+    color: #32495b;
+    font-size: 12px;
+    width: 75%;
+    padding: 8px;
+    margin: 8px 0;
+}
+#social-btn a {
+    display: inline-block;
+    width: 14%;
+    margin-top: 6px;
 }
 
 /* font awesome content */
@@ -411,6 +429,7 @@ footer {
     color: white;
     display: inline-block;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 14px;
 }
 
@@ -425,5 +444,31 @@ footer {
     font-size: 16px;
 }
 
+.languages {
+    margin-top: 20px;
+}
 
+.languages ul {
+text-align: center;
+}
+
+.languages ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer-logo {
+    margin-top: 18px;
+    padding-top: 20px;
+    border-top: 1px solid #dadee0;
+}
+
+.footer-logo img {
+    width: 18%;
+}
+
+.footer-logo .standard-paragraph {
+    color: #dadee0;
+    padding: 0;
+}
 
