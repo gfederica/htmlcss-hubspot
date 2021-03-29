@@ -20,7 +20,6 @@ body {
     margin: auto;
 }
 
-/* clearfix */
 .container::after,
 .container-60::after,
 .row::after,
@@ -32,6 +31,14 @@ body {
 
 ul li {
     list-style-type: none;
+} 
+
+ul li a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: #dadee0;
+    padding: 6px 0;
 }
 
 .half-width {
@@ -389,4 +396,34 @@ h3 {
 .left-section-4 .small-paragraph {
     padding-top: 50px;
 }
+
+
+/* footer, summary section */
+footer {
+    background-color: #32495b;
+}
+
+.summary {
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.col-1,
+.col-4 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.summary h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
 
