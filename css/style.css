@@ -16,7 +16,8 @@ body {
     margin: auto;
 }
 
-.container::after {
+.container::after,
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -50,6 +51,24 @@ ul li {
 .hub {    
     border-radius: 5px;
     box-shadow: 0px 0px 2px 1px lightgrey;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px; 
+}
+
+.standard-paragraph {
+    padding: 24px 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.small-paragraph {
+    padding: 24px 0;
+    font-size: 12px;
+    line-height: 24px;
 }
 
 /* buttons */
@@ -164,12 +183,6 @@ h1 {
     line-height: 50px;  
 }
 
-.standard-paragraph,
-.small-paragraph {
-    padding: 24px 0;
-    font-size: 14px;
-    line-height: 24px;
-}
 
 /* empty space bottom jumbotron */
 .green-partition {
@@ -191,13 +204,7 @@ h1 {
     vertical-align: middle;
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: -1px; 
-}
-
-#small-paragraph {
+.better-together p {
     padding: 25px 100px;
 }
 
@@ -260,7 +267,46 @@ h3 {
     text-align: left;
 }
 
+/* learn and grow, gradient background */
+
+.learn-grow {
+    background-image: linear-gradient(to right,#00a5bc, #00bba6);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+}
 
 
+.learn-grow h2 {
+    padding: 0 20px;
+}
 
 
+.row:first-of-type {
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+}
+.numbers {
+    float: left;
+    width: 25%;
+    padding: 20px 0;
+}
+
+.numbers img {
+    max-width:40%;
+    height: 100%;
+}
+
+.numbers h2 {
+    padding: 8px 0;
+}
+
+
+.row p {
+    padding: 0;
+}
+
+.numbers:not(.last-of-row) {
+    border-right: 1px solid white;
+}
