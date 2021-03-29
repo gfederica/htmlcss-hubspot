@@ -39,6 +39,14 @@ ul li a {
     color: #dadee0;
 }
 
+.english ul li a {
+    color: #32495b;
+}
+.navigation ul li a {
+    color: #32495b;
+    font-size: 16px;
+}
+
 .summary ul li a {
     display: block;
     padding: 6px 0;
@@ -444,17 +452,18 @@ footer {
     font-size: 16px;
 }
 
-.languages {
+.lang {
     margin-top: 20px;
 }
 
-.languages ul {
+.lang ul {
 text-align: center;
 }
 
-.languages ul li{
+.lang ul li{
     display: inline-block;
     padding: 0 10px;
+    font-weight: normal;
 }
 
 .footer-logo {
