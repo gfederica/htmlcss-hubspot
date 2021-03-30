@@ -46,7 +46,6 @@ ul li a {
     color: #32495b;
     font-size: 16px;
 }
-
 .summary ul li a {
     display: block;
     padding: 6px 0;
@@ -159,17 +158,35 @@ h2 {
     color: #fe775a;
 }
 
+/* hover */
+ul li a:not(.btn):hover {
+    text-decoration: underline;
+    color: #00a5bc;
+}
+.btn:hover,
+#blue-btn:hover {
+    opacity:0.5;
+    transition-duration: 0.5s;
+}
+
+
 
 
 /* fixed top bar */
 #fixed-top-bar {
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
 }
 #fixed-top-bar,
 #nav-not-fixed {
     height: 70px;
     line-height: 70px;
+}
+
+#nav-not-fixed {
+    padding-top: 70px;
 }
 
 
